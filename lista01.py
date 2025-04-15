@@ -16,3 +16,13 @@ print(L[2][1])
 print("print o 5") # print o valor 5
 print(L[2][2][1])
 
+# crie uma lista reversa com os valores de L
+L_reversa = L[::-1]
+print("Lista reversa: ", L_reversa) # print a lista reversa
+print("Lista original: ", L) # print a lista original
+
+# ou
+L_reversa = list(reversed(L)) # cria uma lista reversa com os valores de L
+print("Lista reversa: ", L_reversa) # print a lista reversa
+print("Lista original: ", L) # print a lista original
+
