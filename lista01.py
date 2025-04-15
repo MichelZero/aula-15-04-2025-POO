@@ -2,7 +2,7 @@
 # Data: 2025-04-15
 #
 #
-# Exemplo de lista com sublistas
+# Exemplo de lista com sulistas
 
 L = [0, 1, [2, 3, [4, 5]], 6, 7] # valores da lista
 #   [0  1  2[0 1  2[0 1]]  3  4] index
