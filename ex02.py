@@ -31,3 +31,6 @@ print("Lista na ordem inversa:") # imprime a mensagem
 for i in range(len(lista)-1, -1, -1): # loop para imprimir os números na ordem inversa
     print(f"Posição {i}: {lista[i]}") # imprime a posição e o número correspondente 
     
+# ou
+L_inversa = list(reversed(lista)) # cria uma lista reversa com os valores de lista
+print("Lista reversa: ", L_inversa) # print a lista reversa
